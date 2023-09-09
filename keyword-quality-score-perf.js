@@ -5,7 +5,7 @@
 var REPORTS_FOLDER_PATH = 'Google Ads Keyword Quality Scores';
 var EMAIL_ADDRESSES = {{EMAIL ADDRESS}}; //insert your email
 var EMAIL_SUBJECT = "Haftalık Keyword Analizi"
-var EMAIL_BODY = "Google Ads haftalık raporu hazır. Lütfen EMAIL ADDRESS hesabının Google Drive'ına girerek otomatik oluşturulmuş olan Nebim sheet'inden analizleri yap."; // add any text you would like to add to your email alerts
+var EMAIL_BODY = "Google Ads haftalık raporu hazır. Lütfen EMAIL ADDRESS hesabının Google Drive'ına girerek otomatik oluşturulmuş olan sheet'ten analizleri yapabilirsin."; // add any text you would like to add to your email alerts
     MailApp.sendEmail(EMAIL_ADDRESSES, EMAIL_SUBJECT, EMAIL_BODY);
  
 // Specify a date range for the report 
